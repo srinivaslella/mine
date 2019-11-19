@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login page</title> 
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="body.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+    <body class="bg-image">
+<div class="col-lg-6 col-md-6 col-sm-12">
+	<div class="container marg">
+	<div class="card ca-card">
+	<div class="row">
+        <h1 class="hea" style="color:blue">Login Page</h1>
+		</div>
+		<div class="row form-marg">
+        <form name="login" target="_blank">
+            Username:<input type="text" name="userid"/><br><br>
+            Password:<input type="password" name="pswrd"/>
+</div>
+<div class="row">			
+			<h6 class="ta-forg">Click to +91-9182260635</h6>
+			</div><br>
+			<div class="row form-left">
+            <input type="button" onclick="check(this.form)" value="Login" class="btn btn-primary"/>
+            <input type="reset" value="Cancel" class="btn btn-primary button-can"/>
+			</div>
+        </form>
+		</div>
+</div>
+</div>
+        <script language="javascript">
+            function check(form) { 
+                if(form.userid.value == "sri" && form.pswrd.value == "sri") {
+                   open('blog.html')
+                }
+                else {
+                    alert("Error Password or Username")
+                }
+            }
+        </script>
+   
+</body>
+</html>
+
+
+

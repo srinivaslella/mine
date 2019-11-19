@@ -1,0 +1,41 @@
+
+.bg-image {
+	background-image: url(imgg.png);
+	color:#03A9F4;
+}
+.marg {
+margin:0px;
+border:2px solid none;
+border-radius:50px;
+max-width:620px;
+margin-top:0px;
+
+}
+.hea {
+margin-left:60px;
+}
+.bd{
+margin-left:17%;
+}
+.form-marg {
+margin-left:75px;
+}
+.form-left {
+margin-left:88px;
+}
+.tex-left {
+    margin-left: 113px;
+}
+.button-sub {
+	margin-left:30px;
+}
+.button-can {
+	margin-left:10px;
+}
+.ca-card{
+	margin-top: 45px;
+	background-image: url(imgg.png);
+}
+.ta-forg {
+	margin-left: 88px;
+}
